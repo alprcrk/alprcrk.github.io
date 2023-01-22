@@ -43,7 +43,7 @@ img {
 .header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/images/arkaplan.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/arkaplan.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -95,12 +95,12 @@ img {
 }
 
 .accordion-button::after {
-    background-image: url("/images/artı.svg");
+    background-image: url("../images/artı.svg");
     filter: invert(100%) sepia(100%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("/images/çarpı.svg");
+    background-image: url("../images/çarpı.svg");
     filter: invert(100%) sepia(100%) saturate(13%)
 }
 
